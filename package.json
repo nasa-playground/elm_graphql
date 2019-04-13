@@ -1,0 +1,9 @@
+{
+  "name": "contriview_elm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "create-elm-app": "^3.0.6"
+  }
+}
