@@ -24,6 +24,11 @@ main =
         }
 
 
+init : ( Model, Cmd Msg )
+init =
+    ( { input = "", status = Init }, Cmd.none )
+
+
 
 ---- MODEL ----
 
@@ -39,11 +44,6 @@ type Status
     | Waitting
     | Loaded Contriview
     | Failed Http.Error
-
-
-init : ( Model, Cmd Msg )
-init =
-    ( { input = "", status = Init }, Cmd.none )
 
 
 
